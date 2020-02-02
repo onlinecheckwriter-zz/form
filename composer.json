@@ -1,0 +1,24 @@
+{
+    "name": "ocw/form",
+    "description": "Not For Public",
+    "authors": [
+        {
+            "name": "ocw",
+            "email": "support@onlinecheckwriter.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "jazmy\\FormBuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jazmy\\FormBuilder\\FormBuilderServiceProvider"
+            ]
+        }
+    }
+}
